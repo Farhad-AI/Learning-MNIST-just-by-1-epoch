@@ -36,6 +36,6 @@ there are 60000 samples for training and 10000 samples for testing.
 
 ### Accuracy(98%):
 
-This model is designed to learn very fast. we learned it just one epoch and check the accuracy of it by giving all the test data.
+This model is designed to learn very fast. we trained it just one epoch and then checked the accuracy of it by giving all test samples.
 
-It could reach 98% by just one epoch!
+It could reach 98% after one epoch!
