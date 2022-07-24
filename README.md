@@ -26,7 +26,12 @@ It is easy! For disabling them we just need to put "model.eval()" before testing
                                   nn.BatchNorm2d(5) 
                                         )
 ### Loading the data
-For loading the data it is easy to use the commands that PyTorch prepared for us.
+It is easy to load the data by using the commands that PyTorch prepared for us.
 
       train_data = datasets.MNIST(root="MNIST/", train=True, download=True, transform=transform)
       test_data = datasets.MNIST(root="MNIST/", train=False, download=True, transform=transform)
+there are 60000 samples for training and 10000 samples for testing.
+### Accuracy:
+This model is designed to learn very fast. we learned it just one epoch and check the accuracy of it by giving all the test data.
+
+It could reach 98% by just one epoch!
