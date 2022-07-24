@@ -17,3 +17,10 @@ For training we used two more layer: Drop out layer and Batch normalization.
       Batch normalization is useful in order to remove bias of layers before we use them for feeding the next layer.     
 ##### But we remove both Drop_out and Batch_normalization when we the training process is finished, and we want to evalute it on test_data.
 It is easy! For disabling them we just need to put "model.eval()" before testing our model and for enabling them using "model.train()".
+      self.conv1 = nn.Sequential(
+                                  nn.Conv2d(1, 5, 3, 1),
+                                  nn.ReLU(),
+                                  nn.Dropout2d(p=0.1),
+                                  nn.MaxPool2d(2, 2),
+                                  nn.BatchNorm2d(5) 
+                                        )
