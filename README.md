@@ -15,7 +15,7 @@ Each block consists of a Convolution layer and a max pooling to decrease the siz
 For training we used two more layers: Drop out layer and Batch normalization.
 
 Drop out helps our network against overfitting, so the model can learn more! 
-Batch normalization is useful in order to remove bias of layers before we use them for feeding the next layer. 
+Batch normalization was used in order to remove the bias of each block output. 
 ##### But we remove both Drop_out and Batch_normalization when we the training process is finished, and we want to evalute it on test_data.
 It is easy! For disabling them we just need to put "model.eval()" before testing our model and for enabling them using "model.train()".
       
