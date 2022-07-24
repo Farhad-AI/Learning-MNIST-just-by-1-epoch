@@ -1,2 +1,2 @@
-# Learning-MNIST-just-by-1-epoch
-an efficient CNN for learning MNIST
+## Learning-MNIST-just-in-1-epoch
+# An efficient CNN for learning MNIST
