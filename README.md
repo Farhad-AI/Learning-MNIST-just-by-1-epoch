@@ -1,4 +1,4 @@
-# Learning-MNIST-just-in-1-epoch
+# Learning-MNIST-in-1-epoch
 ## An efficient CNN for learning MNIST
 
 This is a very small and efficient model that can learn MNIST very fast. Convolutional neural networks(CNNs) are used for training.
@@ -40,4 +40,4 @@ there are 60000 samples for training and 10000 samples for testing.
 
 This model is designed to learn very fast. we trained it just one epoch and then checked the accuracy of it by giving all test samples.
 
-It could reach 98% after one epoch!
+It could reach 98.13% after one epoch!
