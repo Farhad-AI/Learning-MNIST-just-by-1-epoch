@@ -25,3 +25,8 @@ It is easy! For disabling them we just need to put "model.eval()" before testing
                                   nn.MaxPool2d(2, 2),
                                   nn.BatchNorm2d(5) 
                                         )
+### Loading the data
+For loading the data it is easy to use the commands that PyTorch prepared for us.
+
+      train_data = datasets.MNIST(root="MNIST/", train=True, download=True, transform=transform)
+      test_data = datasets.MNIST(root="MNIST/", train=False, download=True, transform=transform)
