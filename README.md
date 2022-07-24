@@ -6,10 +6,9 @@ only one epoch is used for training this model.
 
 ### Architecture:
 Two blocks of CNNs followed by a fully connection layer(FC) are used to learn MNIST dataset.
-
+![MNIST Architecture](https://user-images.githubusercontent.com/106428795/180659712-7ccb5420-2f23-4cd9-9fd4-0e588ad2e75a.jpg)
 
 Each block consists of a Convolution layer and a max pooling to decrease the size of previous layer.
-
 
 For training we used two more layer: Drop out layer and Batch normalization.
 
