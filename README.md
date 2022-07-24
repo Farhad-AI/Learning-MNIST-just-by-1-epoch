@@ -7,7 +7,7 @@ only one epoch is used for training this model.
 ### Architecture:
 Two blocks of CNNs followed by a fully connection layer(FC) are used to learn MNIST dataset.
 
-![MNIST-dataset](https://user-images.githubusercontent.com/106428795/180662098-fda5395e-a19e-4fed-b0a3-5b24032f3e71.jpg)
+![MNIST Architecture](https://user-images.githubusercontent.com/106428795/180662141-eb0e1b4c-5617-430e-bf39-2d96d178e232.jpg)
 
 
 Each block consists of a Convolution layer and a max pooling to decrease the size of previous layer.
@@ -33,7 +33,8 @@ It is easy to load the data by using the commands that PyTorch prepared for us.
       test_data = datasets.MNIST(root="MNIST/", train=False, download=True, transform=transform)
 there are 60000 samples for training and 10000 samples for testing.
 
-![20200110092811](https://user-images.githubusercontent.com/106428795/180656637-5bbc3010-9511-470d-97d3-d66cf54f768b.jpg)
+![MNIST-dataset](https://user-images.githubusercontent.com/106428795/180662129-e5fa406a-d86d-4d3f-8c86-a7a7e713043d.jpg)
+
 
 ### Accuracy(98%):
 
