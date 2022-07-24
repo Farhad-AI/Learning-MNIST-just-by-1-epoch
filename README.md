@@ -31,6 +31,7 @@ It is easy to load the data by using the commands that PyTorch prepared for us.
       train_data = datasets.MNIST(root="MNIST/", train=True, download=True, transform=transform)
       test_data = datasets.MNIST(root="MNIST/", train=False, download=True, transform=transform)
 there are 60000 samples for training and 10000 samples for testing.
+
 ![20200110092811](https://user-images.githubusercontent.com/106428795/180656637-5bbc3010-9511-470d-97d3-d66cf54f768b.jpg)
 
 ### Accuracy(98%):
