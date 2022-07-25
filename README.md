@@ -1,4 +1,4 @@
-# Learning-MNIST-in-1-epoch
+# 98%-accuracy-on-MNIST-after-1-epoch
 ## An efficient CNN for learning MNIST
 
 This is a very small and efficient model that can learn MNIST very fast. Convolutional neural networks(CNNs) are used for training.
